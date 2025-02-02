@@ -16,5 +16,7 @@
 // ShoppingCart.addToCart('bread', 5);
 // console.log(ShoppingCart.totalPrice);
 
+// import add, { totalPrice, totalquantity } from './shoppingCart.js';
+
 import add from './shoppingCart.js';
 add('pizza', 2);
