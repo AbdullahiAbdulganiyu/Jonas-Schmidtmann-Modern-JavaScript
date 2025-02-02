@@ -51,6 +51,8 @@ console.log(lastPost2);
 
 */
 
+/*
+
 const ShoppingCart2 = (function () {
   const cart = [];
   const shoppingCost = 10;
@@ -76,3 +78,7 @@ const ShoppingCart2 = (function () {
 
 ShoppingCart2.addToCart('pizza', 2);
 ShoppingCart2.addToCart('apples', 4);
+
+*/
+
+import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
