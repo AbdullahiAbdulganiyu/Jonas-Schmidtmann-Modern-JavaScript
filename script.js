@@ -11,7 +11,10 @@
 
 // console.log(price, totalquantity);
 
-import * as ShoppingCart from './shoppingCart.js';
+// import * as ShoppingCart from './shoppingCart.js';
 
-ShoppingCart.addToCart('bread', 5);
-console.log(ShoppingCart.totalPrice);
+// ShoppingCart.addToCart('bread', 5);
+// console.log(ShoppingCart.totalPrice);
+
+import add from './shoppingCart.js';
+add('pizza', 2);
