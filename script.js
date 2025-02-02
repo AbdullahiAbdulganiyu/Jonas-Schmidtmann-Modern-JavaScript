@@ -1,8 +1,12 @@
 // Importing Module
 
-import { addToCart, totalPrice, totalquantity } from './shoppingCart.js';
+import {
+  addToCart,
+  totalPrice as price,
+  totalquantity,
+} from './shoppingCart.js';
 console.log('Importing Module');
 
 addToCart('bread', 5);
 
-console.log(totalPrice, totalquantity);
+console.log(price, totalquantity);
