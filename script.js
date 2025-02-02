@@ -1,5 +1,7 @@
 // Importing Module
 
+// import { totalPrice, totalquantity } from './shoppingCart';
+
 // import {
 //   addToCart,
 //   totalPrice as price,
@@ -18,7 +20,11 @@
 
 // import add, { totalPrice, totalquantity } from './shoppingCart.js';
 
-import add, { cart } from './shoppingCart.js';
+// import shoppingCart, { totalPrice, totalquantity } from './shoppingCart.js';
+// import add, { cart } from './shoppingCart.js';
+
+/*
+
 add('pizza', 2);
 add('braed', 5);
 add('apples', 4);
@@ -42,3 +48,31 @@ const getLastPost = async function () {
 
 const lastPost2 = await getLastPost();
 console.log(lastPost2);
+
+*/
+
+const ShoppingCart2 = (function () {
+  const cart = [];
+  const shoppingCost = 10;
+  const totalQuantity = 23;
+  const totalPrice = 273;
+
+  const addToCart = function (product, quantity) {
+    cart.push({ product, quantity });
+    console.log(`${quantity} ${product} added to cart`);
+  };
+
+  const orderStock = function (product, quantity) {
+    console.log(`${quantity} ${product} ordered from supplier`);
+  };
+
+  return {
+    addToCart,
+    cart,
+    totalPrice,
+    totalQuantity,
+  };
+})();
+
+ShoppingCart2.addToCart('pizza', 2);
+ShoppingCart2.addToCart('apples', 4);
