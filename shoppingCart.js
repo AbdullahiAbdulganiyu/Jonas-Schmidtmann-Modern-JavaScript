@@ -5,6 +5,11 @@ const shoppingCost = 10;
 const cart = [];
 
 export const addToCart = function (product, quantity) {
-  cart.push({ product: quantity });
-  console.log(`${quantity} ${product} ada to cart`);
+  cart.push({ product, quantity });
+  console.log(`${quantity} ${product} added to cart`);
 };
+
+const totalPrice = 273;
+const totalquantity = 27;
+
+export { totalPrice, totalquantity };
