@@ -81,8 +81,8 @@ ShoppingCart2.addToCart('apples', 4);
 
 */
 
-// import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
-import cloneDeep from 'lodash-es';
+import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
+// import cloneDeep from 'lodash-es';
 
 const state = {
   cart: [
@@ -102,9 +102,9 @@ console.log(stateDeepClone);
 
 state.user.loggedIn = false;
 
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 class Person {
   greeting = 'Hey';
@@ -116,7 +116,7 @@ class Person {
 
 const jonas = new Person('Jonas');
 
-import 'core-js/stable';
+// import 'core-js/stable';
 
 // Pollyfilling async functions
-import 'regenerator-runtime/runtime.js';
+// import 'regenerator-runtime/runtime.js';
