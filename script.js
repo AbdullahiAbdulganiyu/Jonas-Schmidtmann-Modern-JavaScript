@@ -100,3 +100,7 @@ const stateDeepClone = cloneDeep(state);
 console.log(stateDeepClone);
 
 state.user.loggedIn = false;
+
+if (module.hot) {
+  module.hot.accept();
+}
