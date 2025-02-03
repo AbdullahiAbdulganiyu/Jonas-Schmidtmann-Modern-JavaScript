@@ -115,3 +115,8 @@ class Person {
 }
 
 const jonas = new Person('Jonas');
+
+import 'core-js/stable';
+
+// Pollyfilling async functions
+import 'regenerator-runtime/runtime.js';
