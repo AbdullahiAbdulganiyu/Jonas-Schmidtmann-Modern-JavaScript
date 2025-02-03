@@ -692,6 +692,14 @@ const stateDeepClone = (0, _lodashEsDefault.default)(state);
 console.log(stateDeepClone);
 state.user.loggedIn = false;
 if (module.hot) module.hot.accept();
+class Person {
+    greeting = 'Hey';
+    constructor(name){
+        this.name = name;
+        console.log(`${this.greeting} ${this.name}`);
+    }
+}
+const jonas = new Person('Jonas');
 
 },{"./shoppingCart.js":"l6bJl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","lodash-es":"bXNwz"}],"l6bJl":[function(require,module,exports,__globalThis) {
 // Exporting module
