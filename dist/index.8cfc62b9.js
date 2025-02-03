@@ -693,7 +693,7 @@ console.log(stateDeepClone);
 state.user.loggedIn = false;
 if (module.hot) module.hot.accept();
 
-},{"./shoppingCart.js":"l6bJl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","lodash-es":"bXNwz"}],"l6bJl":[function(require,module,exports,__globalThis) {
+},{"./shoppingCart.js":"l6bJl","lodash-es":"bXNwz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l6bJl":[function(require,module,exports,__globalThis) {
 // Exporting module
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
